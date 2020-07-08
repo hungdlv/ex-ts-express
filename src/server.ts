@@ -1,4 +1,4 @@
-import express = require('express');
+import express, { Request, Response, NextFunction } from 'express';
 // Create a new express app instance
 const app: express.Application = express();
 app.get('/', function (req, res) {
